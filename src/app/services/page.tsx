@@ -58,6 +58,13 @@ const services = [
         description: "High-end cinematic video services including commercial videos, brand promotions, Podcasts, social media ads, YouTube content, and music videos.",
         image: "https://i.pinimg.com/1200x/9e/96/be/9e96be89ed18274e0fb4572d47da3eb1.jpg",
         price: "$1,500"
+    },
+    {
+        id: "Graduation Photoshoots",
+        title: "Graduation Photoshoots",
+        description: "Capture the memories of your graduation day with our professional photography services.",
+        image: "https://i.pinimg.com/736x/22/29/b1/2229b114fe5b0f4d82d695e8c243bb70.jpg",
+        price: "$250"
     }
 ];
 

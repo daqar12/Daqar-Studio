@@ -69,8 +69,26 @@ export default function PortfolioPage() {
             <Navbar />
 
             {/* Hero */}
-            <section className="relative pt-48 pb-12">
+            <section className="relative pt-40 pb-12">
                 <Container>
+                    {/* ── Portfolio / Gallery tab switcher ── */}
+                    <motion.div
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="flex items-center justify-center gap-3 mb-12 -mt-12"
+                    >
+                        <Link href="/portfolio">
+                            <button className="px-6 py-2.5 rounded-full text-sm font-bold bg-brand-gold text-brand-black border border-brand-gold hover:brightness-110 transition-all">
+                                Portfolio
+                            </button>
+                        </Link>
+                        <Link href="/gallery">
+                            <button className="px-6 py-2.5 rounded-full text-sm font-bold border border-foreground/20 text-foreground/60 hover:border-brand-gold/50 hover:text-brand-gold transition-all">
+                                Gallery
+                            </button>
+                        </Link>
+                    </motion.div>
+
                     <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12">
                         <motion.div
                             initial={{ opacity: 0, x: -20 }}
@@ -97,6 +115,7 @@ export default function PortfolioPage() {
                     </div>
                 </Container>
             </section>
+
 
             {/* Filter Bar */}
             <section className="py-12">
