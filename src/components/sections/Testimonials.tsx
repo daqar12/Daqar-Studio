@@ -8,7 +8,7 @@ const testimonials = [
     {
         name: "Eleanor Pemberton",
         role: "Luxury Bride",
-        content: "Daqar Studio didn't just capture our wedding; they captured the soul of the day. The cinematic quality is beyond anything we expected.",
+        content: "OMAL Studio didn't just capture our wedding; they captured the soul of the day. The cinematic quality is beyond anything we expected.",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80",
     },
     {

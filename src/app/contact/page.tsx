@@ -187,7 +187,7 @@ export default function ContactPage() {
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <div className="p-8 bg-foreground/90 backdrop-blur-md text-background rounded-3xl border border-brand-gold/40 shadow-2xl space-y-2 min-w-[280px]">
                                 <div className="flex items-center justify-between">
-                                    <h4 className="text-lg font-bold">Daqar Studio HQ</h4>
+                                    <h4 className="text-lg font-bold">OMAL Studio HQ</h4>
                                     <MapPin size={24} className="text-brand-gold" />
                                 </div>
                                 <p className="text-sm font-light opacity-80 leading-relaxed">

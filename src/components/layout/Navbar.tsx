@@ -61,7 +61,7 @@ export default function Navbar() {
                     >
                         <img
                             src="/logo.png"
-                            alt="Daqar Studio"
+                            alt="OMAL Studio"
                             className="h-full w-auto object-contain transition-transform duration-500 group-hover:scale-105"
                         />
                     </motion.div>
@@ -70,7 +70,7 @@ export default function Navbar() {
                         animate={{ opacity: 1, x: 0 }}
                         className="text-lg font-bold tracking-[0.2em] text-foreground uppercase group-hover:text-brand-gold transition-colors duration-500"
                     >
-                        DAQAR STUDIO
+                        OMAL STUDIO
                     </motion.div>
                 </Link>
 

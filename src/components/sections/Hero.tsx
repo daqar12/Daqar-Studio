@@ -33,7 +33,7 @@ export default function Hero() {
                             transition={{ duration: 1.2, delay: 0.2 }}
                             className="text-5xl md:text-8xl font-bold tracking-[0.2em] text-foreground uppercase"
                         >
-                            DAQAR STUDIO
+                            OMAL STUDIO
                         </motion.h1>
                         <motion.p
                             initial={{ opacity: 0 }}

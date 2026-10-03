@@ -83,13 +83,13 @@ export default function AboutPage() {
                                 </h1>
                             </div>
                             <p className="text-foreground/60 leading-relaxed font-light text-lg max-w-xl">
-                                Founded on the principles of elegance and precision, Daqar Studio has evolved into a premier destination for high-end photography and videography. Our journey is defined by a commitment to capturing the essence of every subject through a lens of luxury.
+                                Founded on the principles of elegance and precision, OMAL Studio has evolved into a premier destination for high-end photography and videography. Our journey is defined by a commitment to capturing the essence of every subject through a lens of luxury.
                             </p>
                             <p className="text-foreground/60 leading-relaxed font-light text-lg max-w-xl">
                                 We believe that luxury isn't just about the final image — it's about the experience, the attention to detail, and the pursuit of perfection in every frame.
                             </p>
                             <div className="text-sm font-light space-y-2">
-                                <p>Our brand colors reflect the elegance and sophistication of Daqar Studio:</p>
+                                <p>Our brand colors reflect the elegance and sophistication of OMAL Studio:</p>
                                 <ul className="text-sm font-light max-w-xl list-disc list-inside space-y-1 text-foreground/70">
                                     <li><strong>Deep Black:</strong> #0F0F0F — representing strength, depth, and timeless elegance.</li>
                                     <li><strong>Metallic Gold:</strong> #C6A75E — symbolizing luxury, prestige, and refined craftsmanship.</li>
@@ -253,7 +253,7 @@ export default function AboutPage() {
                             <div className="space-y-4">
                                 <h2 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
                                     Why Choose <br />
-                                    <span className="text-brand-gold">Daqar Studio?</span>
+                                    <span className="text-brand-gold">OMAL Studio?</span>
                                 </h2>
                                 <p className="text-foreground/60 font-light text-lg">
                                     We offer more than just media services; we provide a partnership in prestige and quality.

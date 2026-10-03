@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Daqar Studio | Capturing Timeless Moments",
+  title: "OMAL Studio | Capturing Timeless Moments",
   description: "Professional Luxury Media Studio specializing in Photography, Videography, Weddings, and Events.",
   icons: {
     icon: "/logo.png",

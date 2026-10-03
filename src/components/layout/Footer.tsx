@@ -11,11 +11,11 @@ export default function Footer() {
                         <Link href="/" className="flex items-center space-x-3 group">
                             <img
                                 src="/logo.png"
-                                alt="Daqar Studio Logo"
+                                alt="OMAL Studio Logo"
                                 className="h-8 w-auto object-contain transition-transform duration-500 group-hover:scale-105"
                             />
                             <div className="text-sm font-bold tracking-[0.3em] text-foreground uppercase group-hover:text-brand-gold transition-colors duration-500">
-                                DAQAR STUDIO
+                                OMAL STUDIO
                             </div>
                         </Link>
                         <p className="text-foreground/50 font-light text-sm leading-relaxed max-w-xs">
@@ -23,10 +23,10 @@ export default function Footer() {
                         </p>
                         <div className="flex space-x-4">
                             {[
-                                { Icon: Instagram, href: "https://instagram.com/daqarstudio" },
-                                { Icon: Facebook, href: "https://facebook.com/daqarstudio" },
-                                { Icon: Twitter, href: "https://twitter.com/daqarstudio" },
-                                { Icon: Youtube, href: "https://youtube.com/@daqarstudio" },
+                                { Icon: Instagram, href: "https://instagram.com/omalstudio" },
+                                { Icon: Facebook, href: "https://facebook.com/omalstudio" },
+                                { Icon: Twitter, href: "https://twitter.com/omalstudio" },
+                                { Icon: Youtube, href: "https://youtube.com/@omalstudio" },
                             ].map(({ Icon, href }, i) => (
                                 <a
                                     key={i}
@@ -85,12 +85,12 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center space-x-4 group">
                                 <Mail size={16} className="text-brand-gold" />
-                                <a href="mailto:hello@daqarstudio.com" className="text-sm text-foreground/50 font-light hover:text-brand-gold transition-colors">hello@daqarstudio.com</a>
+                                <a href="mailto:hello@omalstudio.com" className="text-sm text-foreground/50 font-light hover:text-brand-gold transition-colors">hello@omalstudio.com</a>
                             </li>
                             <li className="flex items-center space-x-4 group">
                                 <MessageCircle size={16} className="text-[#25D366]" />
                                 <a
-                                    href={`https://wa.me/252000000000?text=${encodeURIComponent("Hi Daqar Studio! I'd like to inquire about your services.")}`}
+                                    href={`https://wa.me/252000000000?text=${encodeURIComponent("Hi OMAL Studio! I'd like to inquire about your services.")}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-sm text-[#25D366]/70 font-light hover:text-[#25D366] transition-colors"
@@ -105,7 +105,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="pt-12 border-t border-foreground/5 flex flex-col md:flex-row justify-between items-center gap-8">
                     <p className="text-[10px] font-bold uppercase tracking-[0.4em] text-foreground/30">
-                        © {new Date().getFullYear()} Daqar Studio. All Rights Reserved.
+                        © {new Date().getFullYear()} OMAL Studio. All Rights Reserved.
                     </p>
                     <div className="flex space-x-12">
                         <Link href="#" className="text-[10px] font-bold uppercase tracking-[0.4em] text-foreground/30 hover:text-brand-gold transition-colors">Privacy</Link>
